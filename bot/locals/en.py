@@ -1,21 +1,21 @@
-
 from bot.locals import Local
 
 LOCAL = Local({
     'WRONG_ROOM' : 'I a\'m not suppose to be here.\nID : <code>{CHAT_ID}</code>',
-    'WELCOME_MESSAGE' : "Hi!\nI'm <b>Botkaca</b>!\nPowered by pyrogram.\nFork: <a href='https://github.com/Finitebottutu/botkaca'>github.com/Finitebottutu/botkaca</a>",
+    'WELCOME_MESSAGE' : "Hi!\nI'm <b>Leech Bot</b>!\nMy Owner is @A_T_Heshan\nSubscribe My YouTube Channel👇\n <a href='https://youtube.com/channel/UCXl_dzFIxfmAlaPtD7AZY7A'>𝕎𝕆𝕃𝕋ℝ𝔼𝕏</a>",
     'PASS_REQUIRED' : '\n\nUse <code>/{cmd_pass} </code>to enter the password.',
     'LEECH_LIST_MESSAGE_HEADER' : '<b>Leech Status</b>',
     'LEECH_LIST_FORMAT' : 'Name: <code>{name}</code>\nStatus: {status}\nID: <code>{gid}</code>\n\n',
     'ARIA2_CHECKING_LINK' : "Checking...",
-    'ARIA2_DOWNLOAD_STATUS' : "Downloading : <code>{name}</code>\n{block} {percentage}\nSize : {total_size}\nDN : {download_speed} / UP : {upload_speed}\nSeeder : {seeder}\nETA : {eta}\nID : <code>{gid}</code>",
-    'ARIA2_DOWNLOAD_SUCCESS' : 'File downloaded : <code>{name}</code>',
-    'ARIA2_DOWNLOAD_CANCELED' : 'Download canceled : <code>{name}</code>',
-    'ARIA2_DEAD_LINK' : 'Download auto canceled : <code>{name}</code>\nYour Torrent/Link is Dead.',
-    'ARIA2_NO_URI' : 'Link is invalid.',
-    'UPLOADING_FILE' : 'Uploading : <code>{name}</code>',
-    'UPLOADING_PROGRESS' : 'Uploading : <code>{name}</code>\n{block} {percentage}%\nSize : {size}\nUP : {upload_speed}/s\nETA : {eta}',
-    'UPLOAD_FAILED_FILE_MISSING' : 'Upload : Failed. file not found.\n<code>{name}</code>',
+    'ARIA2_CHECKING_LINK' : "🔎Checking Your Link....",
+    'ARIA2_DOWNLOAD_STATUS' : " ➟Status : Downloading ⬇️\n➟DN : {download_speed} ▮ UP : {upload_speed}\n➟File Name :<code>{name}</code>\n{block} {percentage}\n➟File Size : {total_size}\n➟Seeders : {seeder}\n➟ETA : {eta}\n\n➟File ID : <code>{gid}</code>",
+    'ARIA2_DOWNLOAD_SUCCESS' : 'File downloaded\nFile Name: k<code>{name}</code>',
+    'ARIA2_DOWNLOAD_CANCELED' : 'Download canceled\nFile Name : <code>{name}</code>',
+    'ARIA2_DEAD_LINK' : '❗Download auto canceled\nFile Name : <code>{name}</code>\n❌Your Torrent/Link is Dead❌.',
+    'ARIA2_NO_URI' : '❗Link is invalid.',
+    'UPLOADING_FILE' : 'Status : Uploading ⬆️\nFile Name : <code>{name}</code>',
+    'UPLOADING_PROGRESS' : '➟Status Uploading ⬆️\n➟File Name : <code>{name}</code>\n➟UP : {upload_speed}/s\n➟{block} {percentage}%\n➟File Size : {size}\n➟ETA : {eta}',
+    'UPLOAD_FAILED_FILE_MISSING' : '❗Upload Error\nFile Name : <code>{name}</code>',
     'GENERATE_THUMBNAIL' : 'Thumbnail : Generating.\n<code>{name}</code>',
     'SPLIT_FILE' : 'Spliting : <code>{name}</code>',
     'SPLIT_FAILED' : 'Split : Failed.\n<code>{name}</code>',
@@ -42,6 +42,6 @@ LOCAL = Local({
     'COMMAND_UPLOAD_AS_DOC' : 'toggle upload anything as document',
     'COMMAND_UPLOAD_AS_ZIP' : 'toggle upload anything as bundled zipfile',
     'COMMAND_SET_TRACKER' : 'set default tracker, sparated by newline',
-    'BLOCK_EMPTY' : "▱",
-    "BLOCK_FILLED" : "▰"
+    'BLOCK_EMPTY' : "□",
+    "BLOCK_FILLED" : "■"
 })
